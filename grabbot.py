@@ -9,7 +9,7 @@ q = Queue(connection=conn)
 
 @app.route("/request", methods = ['POST'])
 def grab():
-	if request.method == "POST" and request.form.get('token') == "6oh8ghm5EwfYl1aPg9dvoIw1":
+	if request.method == "POST" and request.form.get('token') == BU3RxV9CQ2jKRuDQxC5sdNpG:
 		breakthisDown = request.form.get('text').split()[2]
 		url = breakthisDown[1:-1]
 		channel = request.form.get('channel_name')
