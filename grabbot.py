@@ -9,7 +9,7 @@ q = Queue(connection=conn)
 
 @app.route("/request", methods = ['POST'])
 def grab():
-	if request.method == "POST" and request.form.get('token') == "Insert outgoing webhook token here":
+	if request.method == "POST" and request.form.get('token') == "6oh8ghm5EwfYl1aPg9dvoIw1":
 		breakthisDown = request.form.get('text').split()[2]
 		url = breakthisDown[1:-1]
 		channel = request.form.get('channel_name')
