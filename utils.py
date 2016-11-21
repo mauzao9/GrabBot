@@ -3,7 +3,7 @@ import youtube_dl
 import sys
 import os
 
-slack = Slacker("xoxb-107567328069-pJBQ0pMaPXNnabD5TSX8XpXw")
+slack = Slacker(xoxb-107567328069-pJBQ0pMaPXNnabD5TSX8XpXw)
 
 class MyLogger(object):
 	def debug(self, msg):
